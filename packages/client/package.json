@@ -6,8 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "prepare:build:staging": "echo \"import { Buffer } from 'buffer/'; \n$(cat /home/runner/work/moon42/moon42/packages/client/node_modules/.pnpm/tweetnacl-util@0.15.1/node_modules/tweetnacl-util/nacl-util.js)\" > /home/runner/work/moon42/moon42/packages/client/node_modules/.pnpm/tweetnacl-util@0.15.1/node_modules/tweetnacl-util/nacl-util.js",
-    "build:staging": "pnpm prepare:build:staging && pnpm raw:build:staging",
+    "build:staging": "pnpm raw:build:staging",
     "raw:build:staging": "dotenv -e .env.staging pnpm build",
     "build:production": "dotenv -e .env.production pnpm build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
