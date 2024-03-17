@@ -1,0 +1,29 @@
+@import "./tailwind.css";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Nanum+Myeongjo&display=swap');
+
+.popup-background {
+  background: rgba(255, 227, 227, 0.1) !important;
+  backdrop-filter: blur(3px) !important;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.why-card {
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05), 0px 4px 2px 0px rgba(0, 0, 0, 0.01);
+}
+
+.join {
+  background: linear-gradient(180deg, #FFF 50.24%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.nanum-myeongjo-regular,
+.logo-font {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
